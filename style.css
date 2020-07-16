@@ -1,0 +1,58 @@
+body{
+    
+     background-color: palegreen;
+      font-family: 'Georgia', sans-serif;
+}
+header {
+    margin:0;
+    padding: 20px 20px ;
+    background-color: limegreen;
+    width: 100%;
+    
+}
+h1{
+    color: solid green;
+    text-align: center;
+    padding: 0;
+}
+h3{
+    color: rebeccapurple;
+    text-align: center;
+}
+
+thead{
+    background-color: limegreen;
+    
+}
+table{
+    margin: 0 auto;
+    border: 2px solid green; 
+    line-break: auto;
+}
+td{
+    
+    border-color: 1px solid greenyellow;      
+}
+tr:hover{
+    color: mediumseagreen;
+}
+section {
+    font-family: Arial;
+    font-size: 20px;
+    
+}
+.left{
+    width: 130px;
+    
+}
+.mid{
+    width: 170px;
+}
+
+footer{
+    text-align: center;
+    background-color: limegreen;
+    padding: 10px 10px; 
+    box-sizing: border-box;
+     
+}

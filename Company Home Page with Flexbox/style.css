@@ -15,6 +15,7 @@ nav ul{
     position: fixed;
     z-index: 5;
     top:0;
+    left: 0;
 }
 nav li{
     display: table-cell;

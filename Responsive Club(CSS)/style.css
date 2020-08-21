@@ -10,6 +10,7 @@ header{
     z-index: 5;
     width: 100%;
     top: 0;
+    left: 0;
     padding:0 ;
     margin:0;
    
@@ -50,7 +51,7 @@ li a:hover{
     margin:auto;
     max-width: 450px;
     max-height: 400px;
-    background-image: url('../Resources/Images/background-870x555.jpg');
+    background-image: url(https://res.cloudinary.com/fairy/image/upload/v1598024891/Projects/Responsive%20Club/background-870x555_zdjiow.jpg);
 
 }
 .about h4{
@@ -81,7 +82,9 @@ figcaption{
     min-height: 500px;
     max-width: 800px;
     width: 100%;
-    background-image: url('../Resources/Images/contact-background-image-mountain-climbing.jpg');
+    background-image: url(https://res.cloudinary.com/fairy/image/upload/v1598024890/Projects/Responsive%20Club/contact-background-image-mountain-climbing_ie4ins.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .contact h4 {
     text-align: left;
@@ -90,7 +93,7 @@ figcaption{
     background-color: turquoise	;
 }
 
-@media only screen and (max-width: 400px) and (min-resolution: 300dpi),(orientation: portait){
+@media only screen and (max-width: 600px) and (min-resolution: 300dpi),(orientation: portait){
     body{
         font-size: 12px;
     }
